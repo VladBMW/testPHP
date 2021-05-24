@@ -1,0 +1,435 @@
+.center {
+  text-align: center;
+}
+
+.header {
+  background: url("proect_img/bg.jpg") no-repeat;
+  width: 100%;
+  height: 768px;
+  background-size: cover;
+}
+
+.logo {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.text_logo {
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.t {
+  margin-left: 2px;
+}
+
+.center_text {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.center_text_scroll {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.text_main, .text_small {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: 5.70937px;
+  color: #fff;
+  margin-top: 260px;
+}
+
+.text_small, .text_scroll {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 0px;
+  font-style: normal;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.text_scroll {
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 5px;
+}
+
+.logo_nav {
+  color: #171819;
+  font-size: 23px;
+  line-height: 65px;
+}
+
+.navbar {
+  margin-bottom: 80px !important;
+}
+
+.nav {
+  float: right;
+}
+
+.nav_item {
+  font-size: 12px;
+  line-height: 65px;
+  display: inline-block !important;
+  letter-spacing: 1.09091px;
+  color: #48555B;
+  margin-left: 45px;
+}
+
+.nav_item_a {
+  padding: 0 !important;
+  color: #48555B !important;
+  cursor: pointer;
+}
+
+.nav_item_a:hover {
+  color: #00A4E5 !important;
+  background: none !important;
+}
+
+.nav_line {
+  width: 100%;
+  background-color: #E6E6E6;
+  height: 1px;
+  margin: 0;
+}
+
+.about {
+  margin-bottom: 118px;
+}
+
+.title_about {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #48555B;
+}
+
+.line_about {
+  width: 50px;
+  height: 2px;
+  background-color: #00A4E5;
+  margin: 20px auto 60px auto;
+}
+
+.main_about, .lorem_about, .sibtitle, .title_services, .lorem_services, .btn_services, .text_service, .lorem_service, .big_text, .signup {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #48555B;
+  letter-spacing: 0.1875px;
+}
+
+.excretion {
+  color: #16ACE8;
+}
+
+.lorem_about {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+  margin-top: 30px;
+}
+
+.picture {
+  margin-top: 30px;
+}
+
+.bitmap {
+  position: absolute;
+  width: 90%;
+  right: 15px;
+  height: 225px;
+  transition-duration: 400ms;
+}
+
+.bitmap:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out;
+  transition-duration: 500ms;
+  border-radius: 5px;
+}
+
+.subtitle {
+  position: relative;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin: 15px;
+}
+
+.services {
+  margin-bottom: 115px;
+}
+
+.title_services {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 2.30625px;
+}
+
+.line_services {
+  margin: 20px auto 60px 0;
+}
+
+.lorem_services {
+  width: 405.4px;
+  margin-left: 120px;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  float: left;
+}
+
+.all-services-btn {
+  width: 150px;
+  height: 40px;
+  background-color: #00A4E5;
+  float: right;
+  position: relative;
+  transition-duration: 150ms;
+}
+
+.all-services-btn:hover {
+  box-shadow: 0px 6px 10px -3px #000000;
+  transform: scale(1.15);
+  transition: all 1s ease-out;
+  transition-duration: 100ms;
+  border-radius: 10px;
+}
+
+.btn_services {
+  width: 150px;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.service {
+  border: 1px solid #E6E6E6;
+  height: 330px;
+  padding: 45px auto 20px 22px;
+  transition-duration: 350ms;
+}
+
+.service:hover {
+  box-shadow: inset 0 0 0 5px #898a8a;
+  transform: scale(1.1);
+  transition: all 1s ease-out;
+  transition-duration: 500ms;
+  border-radius: 10px;
+}
+
+.img_service {
+  margin: 37px auto 0 22px;
+}
+
+.text_service {
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.426667px;
+  margin: 25px auto 10px 22px;
+}
+
+.lorem_service {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+  width: 250px;
+  margin: 0 auto 38px 22px;
+}
+
+.get_in_touch {
+  background: url("proect_img/bg2.png") no-repeat;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+
+.big_text {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  margin-top: 120px;
+  margin-bottom: 35px;
+}
+
+.btn_get_in_touch {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter {
+  background-color: #171819;
+  height: 100px;
+}
+
+.signup {
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+}
+
+.email {
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  width: 250px;
+  height: 40px;
+  margin-left: 70px;
+  padding: 11px 0 10px 16px;
+}
+.email ::-webkit-input-placeholder {
+  color: #48555B;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.07px;
+}
+.email ::-moz-placeholder {
+  color: #48555B;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.07px;
+}
+.email :-ms-input-placeholder {
+  color: #48555B;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.07px;
+}
+.email :-moz-placeholder {
+  color: #48555B;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.07px;
+}
+
+.btn_newsletter {
+  margin-left: -180px;
+  margin-right: 180px;
+}
+
+.content {
+  height: 40px;
+  margin: 30px auto;
+  padding-right: 50px;
+  padding-left: 45px;
+}
+
+.blue {
+  height: 240px;
+  background: #141A20;
+  padding: 45px 0;
+}
+
+.title_company {
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.lorem_footer {
+  font-weight: normal;
+  letter-spacing: 0.85px;
+  float: none;
+  color: #fff;
+  margin: 10px 0 0 0;
+  width: 250px;
+}
+
+.rel {
+  position: reletive;
+}
+
+.left_links {
+  padding: 0;
+  display: inline-block;
+}
+
+.link {
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 25px;
+  letter-spacing: 0.846154px;
+}
+
+a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.middle_links, .right_links {
+  display: inline-block;
+  position: absolute;
+}
+
+.right_links {
+  right: 75px;
+}
+
+.text_contact {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.846154px;
+  margin-bottom: 18px;
+}
+
+.socials {
+  margin-top: 35px;
+}
+
+.twitter {
+  margin: 0 25px;
+}
+
+.black {
+  height: 60px;
+  background: #171819;
+  padding: 22px 0;
+}
+
+.text_black_footer {
+  font-weight: normal;
+  letter-spacing: 0.846154px;
+}
+
+/*# sourceMappingURL=style.css.map */
